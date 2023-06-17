@@ -41,6 +41,6 @@
 }
 
 .body {
-    background-color: rgb(213, 218, 218);
+    background-color: rgb(237, 240, 240);
 }
 </style>
