@@ -1,0 +1,15 @@
+@tailwind base;
+@tialwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-50
+}
+
+@layer components {
+    .btn {
+        background-color: aqua;
+        color: white;
+        font-size: 3px;
+    }
+}
