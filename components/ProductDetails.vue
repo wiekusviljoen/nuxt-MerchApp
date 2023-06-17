@@ -20,6 +20,7 @@ const { product } = defineProps(['product'])
 
 <style  scoped>
 img {
-    max-width: 400px;
+    border-radius: 15px;
+    max-width: 300px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="body">
         <header class="shadow-sm bg-white">
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink to="/" class="font-bold">Dojo Merch</NuxtLink>
@@ -38,5 +38,9 @@
 <style scoped>
 .router-link-exact-active {
     color: aqua;
+}
+
+.body {
+    background-color: rgb(184, 189, 189);
 }
 </style>
