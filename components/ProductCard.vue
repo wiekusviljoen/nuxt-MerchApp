@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="card text-center">
         <img :src="product.image" alt="product thumb" class="thumb">
         <p class="font-bold">{{ product.title }}</p>
         <NuxtLink :to="`/products/${product.id}`">
@@ -17,5 +17,20 @@ const { product } = defineProps(['product'])
     max-height: 120px;
     max-width: 70%;
     margin: 0 auto;
+    border-radius: 5%;
+
+
+}
+
+.card {
+    padding: 3px;
+    border-radius: 10%;
+    background-color: white
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 4px;
 }
 </style>
