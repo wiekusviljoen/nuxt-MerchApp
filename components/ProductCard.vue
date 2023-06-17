@@ -20,6 +20,7 @@ const { product } = defineProps(['product'])
     max-width: 70%;
     margin: 0 auto;
     border-radius: 5%;
+    margin-top: 5%;
 
 
 }
